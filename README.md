@@ -12,6 +12,12 @@
 
 TBD
 
+## Testing
+
+Jest framework is used as the test framework for this project. To run tests do:
+
+```npm run test```
+
 ## Contributing
 
 If you think this could be better, please [open an issue](https://github.com/orbitdb/benchmark-runner/issues/new)!

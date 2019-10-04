@@ -7,7 +7,8 @@
     "benchmark-runner": "./cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "author": "aphelionz",
   "license": "MIT",
@@ -28,5 +29,8 @@
   ],
   "homepage": "https://github.com/orbitdb/benchmark-runner#readme",
   "bugs": "https://github.com/orbitdb/benchmark-runner/issues",
-  "repository": "github:orbitdb/benchmark-runner"
+  "repository": "github:orbitdb/benchmark-runner",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
